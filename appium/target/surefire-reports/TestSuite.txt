@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 26.984 s <<< FAILURE! - in TestSuite
+rest.Demo.test2  Time elapsed: 12.027 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at rest.Demo.test2(Demo.java:99)
+
+rest.Demo.test1  Time elapsed: 18.861 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at rest.Demo.test1(Demo.java:87)
+
+rest.Demo.test3  Time elapsed: 18.9 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at rest.Demo.test3(Demo.java:108)
+
+rest.Demo.test4  Time elapsed: 22.505 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at rest.Demo.test4(Demo.java:121)
+
