@@ -152,7 +152,7 @@ public class SearchTest {
 		helper.findElementByText("Continue").click();
 		helper.findElementByText("Other UPI Apps").click();
 		helper.findElementByXpath("//android.widget.EditText[contains(@resource-id,'pp-')]")
-				.sendKeys("sandeep.161090@okaxis");
+				.sendKeys("upiID");
 		helper.findElementByText("Verify").click();
 		helper.swipeUp();
 		helper.findElementByText("Continue");
